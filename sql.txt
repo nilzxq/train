@@ -1,0 +1,16 @@
+CREATE TABLE `station` (
+  `station_id` int(11) AUTO_INCREMENT,
+  `trainNum` varchar(20) NOT NULL,
+  `station` varchar(20) NOT NULL,
+  `outTime` varchar(5) NOT NULL,
+  `dayTime` int(11) NOT NULL,
+  `statiPrice` double(6,2) NOT NULL,
+   PRIMARY KEY ( station_id )
+) DEFAULT CHARSET=utf8; 
+insert into station values (null,'k188','云梦','07:00','1',12.5);
+insert into station values (null,'k182','孝感','08:00','1',15.5);
+insert into station values (null,'k183','武汉','09:00','1',39.5);
+insert into station values (null,'k184','上海','10:00','1',108.5);
+
+
+
