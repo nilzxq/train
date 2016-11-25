@@ -5,6 +5,6 @@
 2、Spring整合Mybatis需要JAR包<br/>
 3、引入SpringMVC需要的JAR包<br/>
 4、通过Junit4测试Spring和mybatis整合<br/>
-<a href="http://mvnrepository.com/">Maven中央仓库地址</a>
+<a href="http://mvnrepository.com/">Maven中央仓库地址</a><br/>
 生成语句<br/>
 java -jar mybatis-generator-core-1.3.2.jar -configfile generator.xml -overwrite
